@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+#form1{
+	width:300px;
+	background:#da9694ff;
+	padding:30px;
+	text-align:left;
+	border: 1px solid #dddddd;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 20);
+	border:1px
+	
+}

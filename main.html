@@ -8,9 +8,9 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
-		<label><input type="text" id="name" required>Name</label><br><br>
-		<label><input type="email" id="email" required>Email</label><br><br>
+	<form id="form1">
+		<label><input type="text" id="name" required><br>Name</label><br><br>
+		<label><input type="email" id="email" required><br>Email</label><br><br>
 		<label>Gender</label><br>
 		<label><input type="radio" id="gender_m" name="gender" required>M</label>
 		<label><input type="radio" id="gender_f" name="gender"  required>F</label><br><br>
@@ -20,8 +20,11 @@
 			<option value="Asus">Asus</option>
 			<option value="HP">HP</option>
 		</select><br><br>
-		<label><input type="number" id="dob" required>Age</label><br><br>
-	    
+		<label><input type="number" id="age" required><br>Age</label><br><br>
+	    <label><input type="date" id="dob" required><br>Date of Birth</label><br><br>
+	    <label><input type="password" id="password" required><br>Password</label><br><br>
+	    <a href="https://unsplash.com/plus/new" id="portfolio">Portfolio URL</a><br><br>
+        <button>Submit</button>	
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
