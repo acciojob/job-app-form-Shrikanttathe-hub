@@ -1,6 +1,7 @@
 
 /* Your CSS Code here. */
 #form1{
+    border-radius: 10px;
 	margin:0px;
 	width:300px;
 	background:#da9694ff;
@@ -9,5 +10,4 @@
 	border: 1px solid #dddddd;
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 20);
 	border:1px;
-	
 }
